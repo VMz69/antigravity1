@@ -1,0 +1,9 @@
+pipeline:
+  nombre: "Mi Sitio Dinámico"
+  # Ahora es una lista de archivos
+  fuentes:
+    - content/uno.md
+    - content/dos.md
+    - content/tres.md
+  salida: "public/index.html"
+  template: "templates/layout.html"

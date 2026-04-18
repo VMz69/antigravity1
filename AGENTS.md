@@ -1,0 +1,1 @@
+Mantente observando la carpeta content/. Cada vez que yo guarde un cambio en cualquier archivo MD, ejecuta automáticamente el proceso de construcción y actualiza el public/index.html sin que yo te lo pida

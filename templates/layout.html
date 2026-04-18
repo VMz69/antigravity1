@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titulo }}</title>
+</head>
+
+<body>
+    <header>
+        <h1>Proyecto: {{ pipeline.nombre }}</h1>
+        <p>Por: {{ autor }}</p>
+    </header>
+
+    <main>
+        {% for archivo in pipeline.fuentes %}
+        <section class="post">
+            {{ archivo.content }}
+        </section>
+        <hr> {% endfor %}
+    </main>
+</body>
+
+</html>
